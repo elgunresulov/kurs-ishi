@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swipper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- font awasome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -19,24 +21,11 @@
 
 <body>
     <div class="two-section-bg">
-        <div class="mobile-menyu d-md-none">
-            <i class="fa-solid fa-bars"></i>
-            <nav class="header-mobile-nav">
-                <a href="">What is arcarta?</a>
-                <a href="">Solutions</a>
-                <a href="">Resources</a>
-                <a href="">FAQs</a>
-                <a href="">Contact</a>
-                <a href="">Login</a>
-            </nav>
-            <i class="fa-solid fa-xmark "></i>
-        </div>
-
-        <header>           
+        <header>
             <div class="container">
                 <div class="row">
-                    <div class="header d-flex">
-                        <img src="./assets/images/header/header.svg" alt="">
+                    <div class="header d-flex ">
+                        <img class="px-5" src="./assets/images/header/header.svg" alt="">
                         <div class="header_right d-none d-md-flex">
                             <nav class="header-nav">
                                 <a href="">What is arcarta?</a>
@@ -53,10 +42,74 @@
             </div>
         </header>
 
+
+        <section class="intro">
+            <div class="container rely-on-us">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="market-report">The Art Market Report</button>
+                        <h1>Rely on us</h1>
+                        <article><strong>Our Customer Due Diligence platform helps you avoid <br>fines or losing clients
+                                due to AML while protecting you <br> from cybercrime.</strong></article>
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="logos">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper d-flex ">
+                        <div class="swiper-slide"><img src="./assets/images/intro/intro_1.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./assets/images/intro/intro_2.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./assets/images/intro/intro_3.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./assets/images/intro/intro_4.svg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="what-is-accarta">
+                <a href="">What is arcarta?</a>
+                <img src="./assets/images/icon/logo_section.svg" alt="">
+            </div>
+
+
+        </section>
+        <section class="position_image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="./assets/images/image_section/position_img.svg" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
     </div>
+    
+    <section class="quiz py-5">
+        <div class="container">
+            <div class="row">
+                <div class="quiz-left col-12 col-md-6 bg-primary ">
+                    <img src="./assets/images/icon/computer.svg" alt="" class="d-block p-3">
+                    <h3 class="pb-3 ">Compliance <br> Quiz</h3>
+                    <button class="btn bg-danger ">begin <img src="./assets/images/icon/next_logo.svg" alt=""></button>
+                </div>
+                <div class="quiz-right col-12 col-md-6">
 
+                </div>
+            </div>
+        </div>
+        
+    </section>
 
-
+    <!-- swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- javascript link -->
     <script src="./assets/js/index.js"></script>
 </body>

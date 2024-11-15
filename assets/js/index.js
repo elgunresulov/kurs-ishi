@@ -1,7 +1,22 @@
-//mobile sector
-const navbarBtn=document.querySelector(".fa-bars") 
-const mobileMenyu=document.querySelector(".mobile-menyu")
-
-navbarBtn.addEventListener("click", function(){
-    mobileMenyu.classList.add(".mobile-menyu-acan")
-})
+const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      520: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 50,
+      },
+    },
+  });
