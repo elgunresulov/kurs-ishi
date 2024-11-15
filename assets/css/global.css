@@ -92,6 +92,7 @@
 .quiz-left{
     width: 240px;
     height: 290px;
+    margin-bottom: 20px;
 }
 .quiz-left h3{
     margin-bottom:  40px;
@@ -99,11 +100,6 @@
 .quiz-right .take-the-quiz{
     border-color: #e1ded9;
     border-radius: 50px;
-}
-.total-quiz{
-    padding: 300px;
-
-
 }
 .quiz {
     background:#fffaf2;
@@ -114,9 +110,13 @@
 .quiz .quiz-left button{
     margin-left: 20px;
 }
+
 /* quiz end */
 
-
+@media (min-width: 520px) and (max-width: 768px) {
+    
+  }
+  
 
 @media(min-width:768px){
     /* intro start */
@@ -133,5 +133,13 @@
         padding: 10px 0 10px 110px;
     }
     /* logo end */
-    
+    /* quiz start  */
+    .total-quiz{
+        padding: 300px;
+
+    }
+
+
+
+    /* quiz end */
 }
