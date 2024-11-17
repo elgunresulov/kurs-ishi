@@ -89,6 +89,7 @@
 }
 /* logo end */
 /* quiz start */
+<<<<<<< HEAD
 .quiz-left{
     width: 240px;
     height: 290px;
@@ -99,6 +100,9 @@
 .quiz-left h3{
     margin-bottom:  40px;
 }
+=======
+
+>>>>>>> 5a20f57cf303668f4042e2cf666a2f1afbf564c2
 .quiz-right .take-the-quiz{
     border-color: #e1ded9;
     border-radius: 50px;
@@ -109,9 +113,15 @@
 .quiz img,h3{
     padding-left: 20px;
 }
+<<<<<<< HEAD
 .quiz .quiz-left button{
     margin-left: 20px;
 
+=======
+.quiz{
+    display: flex;
+    text-align: center;
+>>>>>>> 5a20f57cf303668f4042e2cf666a2f1afbf564c2
 }
 
 /* quiz end */
@@ -137,10 +147,7 @@
     }
     /* logo end */
     /* quiz start  */
-    .total-quiz{
-        padding: 300px;
-
-    }
+    
 
 
 
