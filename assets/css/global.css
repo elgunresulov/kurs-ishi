@@ -1,7 +1,93 @@
-.two-section-bg{
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h2,h1,h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+.two-section-bg {
     background-color: #FFF8EE;
     padding: 20px;
 }
+
 /* mobile nav start */
 
 
@@ -17,22 +103,26 @@
 /* header start */
 .header {
     align-items: center;
-    padding: 20px,0;
-    
+    padding: 20px, 0;
+
 }
-.header .header-nav a{
+
+.header .header-nav a {
     text-decoration: none;
     color: #000;
     margin-right: 30px;
 }
-.header nav{
+
+.header nav {
     margin-top: 10px;
 }
-.header{
+
+.header {
     justify-content: space-between;
 }
-.header_right button{
-    background-color:#C47344;
+
+.header_right button {
+    background-color: #C47344;
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -50,23 +140,27 @@
     text-align: center;
     padding: 30px;
 }
-.market-report{
+
+.market-report {
     padding: 5px 5px;
     border: none;
     border-radius: 50px;
-    background-color:#f9ede2 ;
+    background-color: #f9ede2;
 }
-.learn-more{
+
+.learn-more {
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
-    background-color:#C47344;
+    background-color: #C47344;
     color: #fff;
 }
-.intro h1{
-    font-size:40px;
-    padding: 10px ;
+
+.intro h1 {
+    font-size: 40px;
+    padding: 10px;
 }
+
 .intro article {
     padding: 15px;
 }
@@ -74,11 +168,12 @@
 
 /* intro end */
 /* logo start */
-.what-is-accarta{
+.what-is-accarta {
     display: block;
     text-align: center;
     padding: 10px 0 10px 40px;
 }
+
 .logos img {
     margin-right: 100px;
 }
@@ -87,75 +182,182 @@
     color: #C47344;
     text-decoration: none;
 }
+
 /* logo end */
 /* quiz start */
-.quiz-left{
+.quiz-left {
     width: 240px;
     height: 290px;
     margin-bottom: 20px;
     background: #3d818a;
     border-radius: 10px;
 }
-.quiz-left h3{
-    margin-bottom:  40px;
+
+.quiz-left h3 {
+    margin-bottom: 40px;
 }
-.quiz-right .take-the-quiz{
+
+.quiz-right .take-the-quiz {
     border-color: #e1ded9;
     border-radius: 50px;
+    font-family: sans-serif;
 }
+
 .quiz {
-    background:#fffaf2;
+    background: #fffaf2;
 }
-.quiz img,h3{
+
+.quiz img,h3 {
     padding-left: 20px;
 }
 
-.quiz .quiz-left .quiz-left-button{
+.quiz .quiz-left .quiz-left-button {
     margin-left: 20px;
-    background-color: #fff200;
+    background-color: #fff2;
     border: #000;
     border-radius: 10px;
     color: #000;
 }
 
-.quiz{
+.quiz .quiz-left .quiz-left-button i {
+    padding-left: 30px;
+}
+
+.quiz {
     display: flex;
     text-align: center;
 }
 
-
+.quiz-left .computer-img {
+    display: block;
+    margin: 10px auto;
+}
 
 /* quiz end */
-@media (min-width:375px) and (max-width:768px) {
-    .quiz-left{
-        width: 320px;
-    }
-    .quiz-left .computer-img {
+/* art start */
+.art-right article {
+    padding: 20px 0;
+}
+
+.art .container {
+    background-color: #faf7f3;
+}
+.opasity{
+    color: rgb(0, 0, 0, .7);
+}
+
+
+
+
+/* art end */
+
+/* footer start  */
+.footer-left article,img{
+    padding: 20px 0 ;
+}
+
+.part{
+    display: flex   ;
+    flex-direction: column;
+    padding-top: 30px;
+    
+}
+.f-a{
+    color: rgb(0, 0, 0, .7 );
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.communicate img{
+    padding-left: 10px;
+}
+
+
+/* footer end */
+
+.card img{
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width:300px) and (max-width:320px) {
+    .header img {
         display: block;
-        margin: 10px auto;
+        margin: 0 auto;
     }
+    
 
-}  
 
-@media(min-width:768px){
-    /* intro start */
-     .intro h1{
-        font-size:90px;
+}
+@media (min-width:768px) and (max-width:1115px){
+    .art-right article {
+        width: 180px;
         
     }
+
+}
+@media (min-width:330px) and (max-width:767px) {
+
+    .quiz-left {
+        width: 320px;
+        margin-left: 20px;
+    }
+    
+    
+
+}
+
+@media(min-width:768px) {
+
+    /* intro start */
+    .intro h1 {
+        font-size: 90px;
+
+    }
+
     /* intro end */
-   
+
     /* logo start */
-    .what-is-accarta{
+    .what-is-accarta {
         display: block;
         text-align: center;
         padding: 10px 0 10px 110px;
     }
+
     /* logo end */
-    /* quiz start  */
+
+    .art-right {
+        display: inline-block;  
+        padding: 20px;
+        width: 500px;
+        height: 272px;
+
+    }
+    .part{
+        margin-left: 10px;
+
+    }
+    .total-footer{
+        display: flex;
+    }
+    .communicate {
+        margin-top: 30px;
+    }
+    .end-div{
+        display: flex;
+        justify-content: space-between;
     
+    }
+}
 
-
-
-    /* quiz end */
+@media(min-width:1280px) {
+    .quiz-left {
+        margin-left: 280px;
+    }
+    .art-right{
+        padding-top: 200px;
+    }
+    .part{
+        margin-left: 110px;
+    }
 }

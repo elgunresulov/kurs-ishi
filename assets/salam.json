@@ -1,0 +1,23 @@
+[
+    {
+      "photo": "/assets/images/footer/accarta.svg",
+      "title": "For Art Dealers",
+      "description": "Galleries and independent art dealers"
+    },
+    {
+      "photo": "/assets/images/footer/law.svg",
+      "title": "For Advisors",
+      "description": "Advisors, agents and consultants"
+    },
+    {
+      "photo": "/assets/images/footer/bada.svg",
+      "title": "For Auctioneers",
+      "description": "Online and offline auctioneers"
+    },
+    {
+      "photo": "/assets/images/footer/end.svg",
+      "title": "For Buyers & Collectors",
+      "description": "Receiving invoices, making card payments and sending your ID and address documents"
+    }
+  ]
+  
