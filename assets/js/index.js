@@ -124,3 +124,5 @@ navbarBtn.addEventListener("click", function() {
 closeIcon.addEventListener("click", function() {
     mobileMenyu.classList.remove("aktiv")
 })
+new Accordion('.accordion-container1');
+new Accordion('.accordion-container2');

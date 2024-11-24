@@ -287,6 +287,7 @@ header nav a{
     margin: 10px auto;
 }
 
+
 /* quiz end */
 /* art start */
 .art-right article {
@@ -354,7 +355,9 @@ header nav a{
     
 }
 /* accardion */
-
+.accordion-section {
+    background-color: #f9ede232;
+}
 /* accardion */
 
 
