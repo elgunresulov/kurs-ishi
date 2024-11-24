@@ -64,7 +64,7 @@ const swiper = new Swiper(".mySwiper", {
 
 // }
 
-{/* <div class="swiper-slide text-center">
+/* <div class="swiper-slide text-center">
                     <div class="card rounded-0  " style="width: 20rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -74,11 +74,11 @@ const swiper = new Swiper(".mySwiper", {
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                </div> */}
+                </div> */
 
 
 
-const mukafatlarDivi = document.getElementById(ders)
+const mukafatlarDivi = document.getElementById("ders")
 
 window.addEventListener("DOMContentLoaded" ,  melumatlariGetir()  )
 
@@ -94,13 +94,12 @@ async function melumatlariGetir() {
       mukafatlarDivi.innerHTML +=
       `
                   <div class="swiper-slide text-center">
-                    <div class="card rounded-0  >
-                        <img src="${birmukafat.photo}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">${birmukafat.title}</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card rounded-3"  >
+                        <img src="${birmukafat.photo}" class="card-img-top " alt="...">
+                        <div class="card-body ">
+                            <h2 class="card-title">${birmukafat.title}</h2>
+                            <p class="card-text">${birmukafat.description}</p>
+                            <a href="#" class="btn btn-primary "><strong>Learn More</strong></a>
                         </div>
                     </div>
                   </div>
@@ -112,3 +111,16 @@ async function melumatlariGetir() {
   }
 }
 
+// mobile menyu 
+const navbarBtn = document.querySelector(".fa-bars-staggered")
+
+const mobileMenyu = document.querySelector(".mobile-menyu")
+const closeIcon = document.querySelector(".fa-xmark")
+
+navbarBtn.addEventListener("click", function() {
+    mobileMenyu.classList.add("aktiv")
+})
+
+closeIcon.addEventListener("click", function() {
+    mobileMenyu.classList.remove("aktiv")
+})

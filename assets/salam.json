@@ -1,21 +1,21 @@
 [
     {
-      "photo": "/assets/images/footer/accarta.svg",
+      "photo": "/assets/images/award/img1.svg",
       "title": "For Art Dealers",
       "description": "Galleries and independent art dealers"
     },
     {
-      "photo": "/assets/images/footer/law.svg",
+      "photo": "/assets/images/award/img2.svg",
       "title": "For Advisors",
       "description": "Advisors, agents and consultants"
     },
     {
-      "photo": "/assets/images/footer/bada.svg",
+      "photo": "/assets/images/award/img3.svg",
       "title": "For Auctioneers",
       "description": "Online and offline auctioneers"
     },
     {
-      "photo": "/assets/images/footer/end.svg",
+      "photo": "/assets/images/award/img4.svg",
       "title": "For Buyers & Collectors",
       "description": "Receiving invoices, making card payments and sending your ID and address documents"
     }

@@ -89,7 +89,61 @@ h2,h1,h3 {
 }
 
 /* mobile nav start */
+header nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.mobile-menyu{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    width:0%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.mobile-menyu.aktiv nav a {
+    padding-bottom: 10px;
+}
+.mobile-menyu.aktiv{
+    width: 100%;
+}
 
+.mobile-menyu nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    height: 100vh;
+    justify-content: center; 
+    
+}
+
+.mobile-menyu nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.fa-xmark{
+    color: #f7f7f7;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    font-size: 30px;
+}
+.fa-bars-staggered{
+    color: #050202;
+    padding: 1px;
+    font-size: 20px;
+    
+}
+.mobile-nav-links a {
+    color:#ccc;
+    font-size: 28px;
+}
+
+.mobile-nav-links a:hover, .fa-circle-xmark:hover{
+    color:#ebeb4f;
+}
 
 
 /* child element */
@@ -275,10 +329,34 @@ h2,h1,h3 {
 
 /* footer end */
 
+/* award start */
+
+.card-img-top{
+    width: 150px;
+}
+.card-body a {
+    border-radius: 50px;
+    background-color: #fffaf2;
+    color: #000;
+    border: 2px solid #E1DED9;
+    
+}
+/* award end */
+.card{
+    background-color: #fffaf2;
+}
 .card img{
     display: block;
     margin: 0 auto;
 }
+.card-body {
+    height: 300px;
+    
+}
+/* accardion */
+
+/* accardion */
+
 
 @media (min-width:300px) and (max-width:320px) {
     .header img {
@@ -294,13 +372,15 @@ h2,h1,h3 {
         width: 180px;
         
     }
+    
 
 }
-@media (min-width:330px) and (max-width:767px) {
+
+@media (min-width:330px) and (max-width:768px) {
 
     .quiz-left {
         width: 320px;
-        margin-left: 20px;
+        margin-left: 120px;
     }
     
     
@@ -311,7 +391,7 @@ h2,h1,h3 {
 
     /* intro start */
     .intro h1 {
-        font-size: 90px;
+        font-size: 80px;
 
     }
 
