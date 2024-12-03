@@ -2,7 +2,7 @@ const swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
     pagination: {
-      el: ".swiper-pagination",
+      
       clickable: true,
     },
 
@@ -94,9 +94,9 @@ async function melumatlariGetir() {
       mukafatlarDivi.innerHTML +=
       `
                   <div class="swiper-slide text-center">
-                    <div class="card rounded-3"  >
+                    <div class="card  rounded-3"  >
                         <img src="${birmukafat.photo}" class="card-img-top " alt="...">
-                        <div class="card-body ">
+                        <div class="card-body d-flex flex-column justify-content-between ">
                             <h2 class="card-title">${birmukafat.title}</h2>
                             <p class="card-text">${birmukafat.description}</p>
                             <a href="#" class="btn btn-primary "><strong>Learn More</strong></a>
@@ -126,3 +126,16 @@ closeIcon.addEventListener("click", function() {
 })
 new Accordion('.accordion-container1');
 new Accordion('.accordion-container2');
+
+
+
+const telebe ={  
+  ad: "elgun",
+  unvan:{
+    kuce:"nizami",
+    seher:"baku"
+  }
+
+}
+
+console.log(telebe.unvan.seher)

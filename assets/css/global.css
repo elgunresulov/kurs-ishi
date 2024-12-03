@@ -126,8 +126,8 @@ header nav a{
 .fa-xmark{
     color: #f7f7f7;
     position: absolute;
-    right: 60px;
-    top: 40px;
+    right: 40px;
+    top: 30px;
     font-size: 30px;
 }
 .fa-bars-staggered{
